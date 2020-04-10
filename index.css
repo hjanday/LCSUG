@@ -1,0 +1,60 @@
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...} */
+
+body {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  line-height: 5px;
+  color: #24292e;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #24292e;
+}
+
+hr {
+  border-top: #ccc;
+  border-radius: 0;
+  top
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container > div { /* https://stackoverflow.com/questions/4108726/how-to-spread-elements-horizontally-evenly */
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; /* For IE7 */
+    zoom: 1; /* Trigger hasLayout */
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+}
