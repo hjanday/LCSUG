@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
 body {
   padding-left: 10vw;
   padding-right: 10vw;
@@ -34,6 +38,40 @@ a {
   color:#24292e !important;
 }
 
+a:hover {
+  color: #007bff !important;
+}
+
+#cover-page-outer-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#cover-page-inner-container {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cover-page-title {
+  text-align: center;
+  font-size: 24px;
+}
+
+#cover-page-subtitle {
+  text-align: center;
+  font-size: 16px;
+}
+
+#cover-page-disclaimer {
+  text-align: center;
+  font-size: 16px;
+}
+
 .nav-link {
   font-size: 20px;
   color: #24292e;
@@ -46,3 +84,17 @@ a {
 .checked {
   color: orange;
 }
+
+.nav-pills {
+  background-color: transparent !important;
+}
+
+.nav-link.active {
+  color: #007bff !important;
+  background-color: transparent !important;
+}
+
+.specialUL {
+    list-style: none;
+    padding-left: 0;
+}​
