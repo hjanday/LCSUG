@@ -26,6 +26,9 @@ h1 {
   font-size: 30px;
   line-height: 5px;
   color: #24292e;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 8px;
+  margin-bottom: 0;
 }
 
 p {
