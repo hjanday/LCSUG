@@ -6,22 +6,12 @@
   <title>The LCSUSG</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar">
@@ -51,88 +41,311 @@
     <section id="curriculum">
       <h2>Curriculum</h2>
       <ul style="list-style-type:none">
-        <li>Year 1 Core</li>
+
+        <li><a data-toggle="collapse" href="#YEAR1" aria-expanded="false" aria-controls="YEAR1">Year 1 Core</a></li>
+
         <ul style="list-style-type:none">
-          <li><a data-toggle="collapse" href="#collapseExample" aria-expanded="false"
-              aria-controls="collapseExample">EECS1001 - 1.00</a></li>
-          <div class="collapse" id="collapseExample">
+          <div class="collapse" id="YEAR1">
             <div class="card card-body">
-              Yo fam, EECS1001 is the worst course ever. very bad. do not take. o wait u have to :O :( rip ok bye
+
+              <li><a data-toggle="collapse" href="#Y1course1" aria-expanded="false" aria-controls="Y1course1">EECS1001 - Research Directions in Computing</a></li>
+              <div class="collapse" id="Y1course1">
+                <div class="card card-body">
+                  <strong>Research Directions in Computing</strong><br>
+                  This course is about possible research topics in the field of Computer Science. Topics vary every year.
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y1course2" aria-expanded="false" aria-controls="Y1course2">EECS1012 - Introduction to Computing: A Net-centric Approach</a></li>
+              <div class="collapse" id="Y1course2">
+                <div class="card card-body">
+                  <strong>Introduction to Computing: A Net-centric Approach</strong><br>
+                  This is an introductory course to Computer Science. Programming languages include HTML, CSS, and JavaScript.
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y1course3" aria-expanded="false" aria-controls="Y1course3">EECS1019 - Discrete Mathematics for Computer Science</a></li>
+              <div class="collapse" id="Y1course3">
+                <div class="card card-body">
+                  <strong>Discrete Mathematics for Computer Science</strong><br>
+                  Discrete mathematics are not like your average mathematics with formulas, calculations, and mathematical theory. This is about the math related to Computer Science logic.
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y1course4" aria-expanded="false" aria-controls="Y1course4">EECS1019 - Discrete Mathematics for Computer Science</a></li>
+              <div class="collapse" id="Y1course4">
+                <div class="card card-body">
+                  <strong>Programming for Mobile Computing</strong><br>
+                  Java and Android Studio course.
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y1course5" aria-expanded="false" aria-controls="Y1course5">MATH1300 - Differential Calculus with Applications</a></li>
+              <div class="collapse" id="Y1course5">
+                <div class="card card-body">
+                  <strong>Differential Calculus with Applications</strong><br>
+                  Calculus 1.
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y1course6" aria-expanded="false" aria-controls="Y1course6">MATH1300 - Differential Calculus with Applications</a></li>
+              <div class="collapse" id="Y1course6">
+                <div class="card card-body">
+                  <strong>Integral Calculus with Applications</strong><br>
+                  Calculus 2.
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y1course7" aria-expanded="false" aria-controls="Y1course7">Foundational sciences</a></li>
+              <div class="collapse" id="Y1course7">
+                <div class="card card-body">
+                  <strong>Foundational science breadth</strong><br>
+                  Sciences.
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y1course8" aria-expanded="false" aria-controls="Y1course8">Electives</a></li>
+              <div class="collapse" id="Y1course8">
+                <div class="card card-body">
+                  <strong>Electives</strong><br>
+                  Electives.
+                </div>
+              </div>
+
             </div>
           </div>
-          <li>EECS1012 - 3.00</li>
-          <li>EECS1019 - 3.00</li>
-          <li>EECS1022 - 3.00</li>
-          <li>MATH1300 - 3.00</li>
-          <li>MATH1310 - 3.00</li>
-          <li>Foundational sciences - 6.00 credits total</li>
-          <li>Electives</li>
         </ul>
 
         <br>
 
-        <li>Year 2 Core</li>
+
+        <li><a data-toggle="collapse" href="#YEAR2" aria-expanded="false" aria-controls="YEAR2">Year 2 Core</a></li>
+
         <ul style="list-style-type:none">
-          <li>EECS2001 - 3.00</li>
-          <li>EECS2011 - 3.00</li>
-          <li>EECS2021 - 4.00</li>
-          <li>EECS2030 - 3.00</li>
-          <li>EECS2031 - 3.00</li>
-          <li>MATH1090 - 3.00</li>
-          <li>MATH2030 - 3.00</li>
-          <li>Electives</li>
+          <div class="collapse" id="YEAR2">
+            <div class="card card-body">
+              <!-- aLL courses go in here -->
+
+              <li><a data-toggle="collapse" href="#Y2course1" aria-expanded="false" aria-controls="Y2course1">EECS2001 - Introduction to the Theory of Computation</a></li>
+              <div class="collapse" id="Y2course1">
+                <div class="card card-body">
+                  <strong>Introduction to the Theory of Computation</strong><br>
+                  EECS2001
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y2course2" aria-expanded="false" aria-controls="Y2course2">EECS2011 - Fundamentals of Data Structures</a></li>
+              <div class="collapse" id="Y2course2">
+                <div class="card card-body">
+                  <strong>Fundamentals of Data Structures</strong><br>
+                  EECS2011
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y2course3" aria-expanded="false" aria-controls="Y2course3">EECS2021 - Computer Organization</a></li>
+              <div class="collapse" id="Y2course3">
+                <div class="card card-body">
+                  <strong>Computer Organization</strong><br>
+                  EECS2021
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y2course4" aria-expanded="false" aria-controls="Y2course4">EECS2030 - Advanced Object Oriented Programming</a></li>
+              <div class="collapse" id="Y2course4">
+                <div class="card card-body">
+                  <strong>Advanced Object Oriented Programming</strong><br>
+                  EECS2030
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y2course5" aria-expanded="false" aria-controls="Y2course5">EECS2031 - Software Tools</a></li>
+              <div class="collapse" id="Y2course5">
+                <div class="card card-body">
+                  <strong>Software Tools</strong><br>
+                  EECS2031
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y2course6" aria-expanded="false" aria-controls="Y2course6">MATH1090 - Introduction to Logic for Computer Science</a></li>
+              <div class="collapse" id="Y2course6">
+                <div class="card card-body">
+                  <strong>Introduction to Logic for Computer Science</strong><br>
+                  MATH1090
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y2course7" aria-expanded="false" aria-controls="Y2course7">MATH2030 - Elementary Probability</a></li>
+              <div class="collapse" id="Y2course7">
+                <div class="card card-body">
+                  <strong>Elementary Probability</strong><br>
+                  MATH2030
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y2course8" aria-expanded="false" aria-controls="Y2course8">Electives</a></li>
+              <div class="collapse" id="Y2course8">
+                <div class="card card-body">
+                  <strong>Electives</strong><br>
+                  Electives.
+                </div>
+              </div>
+
+            </div>
+          </div>
         </ul>
 
         <br>
 
-        ourc choice of EECS3402 (1 (3.00), EEECS3421 (3.00), or EECS3461 (3.)00)Electives
-        <ul style="list-style-type:none">
-          <li>EECS3000 - 3.00</li>
-          <li>EECS3101 - 3.00</li>
-          <li>EECS3311 - 3.00</li>
-          <li>Your choice of EECS3215 (4.00) or EECS3221 (3.00)</li>
-          <li>Your choice of EECS3401 (3.00), EECS3421 (3.00), or EECS3461 (3.00)</li>
-          <li>Electives</li>
-        </ul>Jokes on you. Ther e is no "fo4th year core. This is when you chchoose what courses your're really
-        interested oiin,
-        or what toant to specialize in further.
+        <li><a data-toggle="collapse" href="#YEAR3" aria-expanded="false" aria-controls="YEAR3">Year 3 Core</a></li>
 
-        <li>Year 3 Core</li>
         <ul style="list-style-type:none">
-          <li>EECS3000 - 3.00</li>
-          <li>EECS3101 - 3.00</li>
-          <li>EECS3311 - 3.00</li>
-          <li>Your choice of EECS3215 (4.00) or EECS3221 (3.00)</li>
-          <li>Electives</li>
+          <div class="collapse" id="YEAR3">
+            <div class="card card-body">
+              <!-- aLL courses go in here -->
+
+              <li><a data-toggle="collapse" href="#Y3course1" aria-expanded="false" aria-controls="Y3course1">EECS3000 - Professional Practice in Computing</a></li>
+              <div class="collapse" id="Y3course1">
+                <div class="card card-body">
+                  <strong>Professional Practice in Computing</strong><br>
+                  EECS3000
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y3course2" aria-expanded="false" aria-controls="Y3course2">EECS3101 - Design and Analysis of Algorithms</a></li>
+              <div class="collapse" id="Y3course2">
+                <div class="card card-body">
+                  <strong>Design and Analysis of Algorithms</strong><br>
+                  EECS3101
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y3course3" aria-expanded="false" aria-controls="Y3course3">EECS3311 - Software Design</a></li>
+              <div class="collapse" id="Y3course3">
+                <div class="card card-body">
+                  <strong>Software Design</strong><br>
+                  My friends and I joke about this course a lot. We nicknamed this course, "The Gatekeeper" course because it holds people back from graduation. It's less on the difficulty scale, but
+                  it's just SO MUCH WORK. My friend spent the entire winter reading week doing one lab and he still got a 30% on it.<br><br>
+
+                  You'll be working with a language called Eiffel, in an IDE called Eiffel Studio.
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y3course4" aria-expanded="false" aria-controls="Y3course4">EECS3215 or EECS3221</a></li>
+              <div class="collapse" id="Y3course4">
+                <div class="card card-body">
+                  <strong>EECS3215 / EECS3221</strong><br>
+                  This is your choice between EECS3215 (Embedded Systems) or EECS3221 (Operating System Fundamentals).
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y3course5" aria-expanded="false" aria-controls="Y3course5">EECS3401, EECS3421, or EECS3461</a></li>
+              <div class="collapse" id="Y3course5">
+                <div class="card card-body">
+                  <strong>EECS3401 / EECS3421 / EECS3461</strong><br>
+                  This is your choice between EECS3401 (Introduction to Artificial Intelligence), EECS3421 (Introduction to Database Systems), or EECS3461 (User Interfaces).
+                </div>
+              </div>
+
+              <br>
+
+              <li><a data-toggle="collapse" href="#Y3course6" aria-expanded="false" aria-controls="Y3course6">Electives</a></li>
+              <div class="collapse" id="Y3course6">
+                <div class="card card-body">
+                  <strong>Electives</strong><br>
+                  Electives
+                </div>
+              </div>
+
+            </div>
+          </div>
         </ul>
 
         <br>
 
-        <li>Year 4 Core</li>
+        <li><a data-toggle="collapse" href="#YEAR4" aria-expanded="false" aria-controls="YEAR4">Year 4 Core</a></li>
+
         <ul style="list-style-type:none">
-          <li>Jokes on you. There is no 4th year core. This is when you choose what courses you're really interested in,
-            or what you want to specialize in further.</li>
+          <div class="collapse" id="YEAR4">
+            <div class="card card-body">
+              <!-- aLL courses go in here -->
+
+              <li><a data-toggle="collapse" href="#Y4course1" aria-expanded="false" aria-controls="Y4course1">EECS4XXX</a></li>
+              <div class="collapse" id="Y4course1">
+                <div class="card card-body">
+                  <strong>EECS4XXX</strong><br>
+                  Jokes on you. There is no "4th year core". This is when you choose your own 4th year courses and decide what you are interested in and want to specialize in further.
+                  There is mandatory 4th year courses to take, but you need to have at least 12.0 credits of EECS4XXX courses.
+                </div>
+              </div>
+
+            </div>
+          </div>
         </ul>
+
     </section>
 
     <section id="misc">
       <h2>Miscellaneous & General Tips</h2>
       <ul style="list-style-type:none">
-        <li>Staying Organized</li>
-        <li>Time Management</li>
-        <li>Joining Clubs</li>
+        <li>Staying Organized</li><br>
+        <li>Time Management</li><br>
+        <li>Joining Clubs</li><br>
         <li>Year 4 Core</li>
       </ul>
     </section>
 
     <section id="coop">
       <h2>Co-op & Internships</h2>
-
+      <ul style="list-style-type:none">
+        <li>What's Co-op / Internship?</li><br>
+        <li>Why Should You Do Co-Op / Internships?</li><br>
+        <li>How Can I Get My First Placement?</li><br>
+        <li>Lassonde Programs</li>
+      </ul>
     </section>
 
     <section id="faq">
       <h2>Frequently Asked Questions</h2>
-
+      <ul style="list-style-type:none">
+        <li><strong>Why?</strong></li><br>
+        <p>I was strongly inspired by Avi Schiffmann, the creator of the <a href="https://ncov2019.live/data">COVID-19 tracking website</a>.
+      </ul>
     </section>
 
     <section id="author">
@@ -141,7 +354,7 @@
         Hey there!<br><br>
         My name is Christopher Nguyen. At the time of writing this, I am a third year Computer Science Honours student
         with the intention of dropping out of the honours and doing the regular B.Sc degree. If you want to know why,
-        you can read about it in FAQ.<br><br>
+        you can read about it in FAQ.
       </p>
     </section>
   </div>
