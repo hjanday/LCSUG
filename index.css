@@ -47,21 +47,6 @@ hr {
   color: #007bff;
 }
 
-/* .nav-item {
-  padding-left: 5wv;
-  padding-right: 5wv;
-} */
-
-.navbar-nav {
-  text-align: justify;
-  min-width: 100%;
-}
-.navbar-nav:after {
-  content: '';
-  display: inline-block;
-  width: 100%;
-}
-.navbar-nav li {
-  display: inline-block;
-  float:none;
+nav{
+  margin-bottom: 8px;
 }
