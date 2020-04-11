@@ -66,8 +66,14 @@ h3 {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   color: #24292e;
+}
+
+.coursetext {
+  color: #24292e;
+  padding-bottom: 0px!important;
+  margin-bottom: 0px!important;
 }
 
 hr {
@@ -142,6 +148,10 @@ a:hover {
     list-style: none;
     padding-left: 0;
 }​
+
+strong {
+  display:inline !important;
+}
 
 /* LYNN */
 
