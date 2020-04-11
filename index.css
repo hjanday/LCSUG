@@ -56,7 +56,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   line-height: 5px;
   color: #24292e;
-  border-bottom: 1px solid lightgray !important; /* border or not? */
+  /* border-bottom: 1px solid lightgray !important; /* border or not? */ */
   padding-bottom: 8px;
   margin-bottom: 0;
 }
@@ -151,6 +151,13 @@ a:hover {
 
 strong {
   display:inline !important;
+}
+
+.please {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 50% !important;
 }
 
 /* LYNN */
