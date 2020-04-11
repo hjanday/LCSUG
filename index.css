@@ -24,23 +24,23 @@
 }
 
 .nav-item:nth-child(1) {
-  border-color: #007bff;
+  border-color: #a34775; /* creative */
 }
 
 .nav-item:nth-child(2) {
-  border-color: #E36397;
+  border-color: #d14747; /* passionate */
 }
 
 .nav-item:nth-child(3) {
-  border-color: #BC8DA7;
+  border-color: #194775; /* rational */
 }
 
 .nav-item:nth-child(4) {
-  border-color: #DFBBB1;
+  border-color: #47a3a3; /* confident */
 }
 
 .nav-item:nth-child(5) {
-  border-color: #BDB4BF;
+  border-color: #ffd119; /* ingenious */
 }
 
 body {
@@ -56,9 +56,13 @@ h1 {
   font-family: 'Roboto', sans-serif;
   line-height: 5px;
   color: #24292e;
-  border-bottom: 1px solid lightgray; /* border or not? */
+  border-bottom: 1px solid lightgray !important; /* border or not? */
   padding-bottom: 8px;
   margin-bottom: 0;
+}
+
+h3 {
+  border-top: 1px solid lightgray !important; /* top borders and bottom borders lol*/
 }
 
 p {
@@ -142,42 +146,47 @@ a:hover {
 /* LYNN */
 
 .borderr {
-    stroke: #222;
-    stroke-width: 3mm;
-    stroke-linejoin:miter;
-    stroke-linecap:square;
-    fill-opacity: 0;
-  -webkit-animation: anim1 1.5s linear 1s forwards infinite;
-  animation: anim1 1.5s linear 1s forwards infinite;
-  height: 50vh;
+	stroke: #222;
+	stroke-width: 3mm;
+	stroke-linejoin: miter;
+	stroke-linecap: square;
+	fill-opacity: 0;
+	-webkit-animation: anim1 1.5s linear 1s forwards infinite;
+	animation: anim1 1.5s linear 1s forwards infinite;
+	height: 50vh;
 }
 
-    @-webkit-keyframes anim1 {
-    0% {
-    stroke: #222;
-}
-50% {
-  stroke: #fff;
-}    100% {
-    stroke: #222;
-}
+@-webkit-keyframes anim1 {
+	0% {
+		stroke: #222;
+	}
+	50% {
+		stroke: #fff;
+	}
+	100% {
+		stroke: #222;
+	}
 }
 
-    @keyframes anim1 {
-    0% {
-    stroke: #222;
+@keyframes anim1 {
+	0% {
+		stroke: #222;
+	}
+	50% {
+		stroke: #fff;
+	}
+	100% {
+		stroke: #222;
+	}
 }
-50% {
-  stroke: #fff;
-}    100% {
-    stroke: #222;
-}}
-.coverr{
-  position: fixed;
-  display: block;
-  height: 100vh;
-  top: 40vh;
+
+.coverr {
+	position: fixed;
+	display: block;
+	height: 100vh;
+	top: 40vh;
 }
-.ok{
-  padding-top: 90vh;
+
+.ok {
+	padding-top: 90vh;
 }
