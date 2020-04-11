@@ -56,7 +56,8 @@ h1 {
   font-family: 'Roboto', sans-serif;
   line-height: 5px;
   color: #24292e;
-  /* border-bottom: 1px solid lightgray !important; /* border or not? */ */
+  /* border or not? */
+  border-bottom: 1px solid lightgray !important;
   padding-bottom: 8px;
   margin-bottom: 0;
 }
