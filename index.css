@@ -1,7 +1,48 @@
-html, body {
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...} */
+
+/* html, body {
   height: 100%;
   width: 100%;
+} */
+
+.nav-item {
+  border-bottom: 1.5px solid #000;
+  border-radius: 0 !important;
 }
+
+.nav-item:nth-child(1) {
+  border-color: #007bff;
+}
+
+.nav-item:nth-child(2) {
+  border-color: #E36397;
+}
+
+.nav-item:nth-child(3) {
+  border-color: #BC8DA7;
+}
+
+.nav-item:nth-child(4) {
+  border-color: #DFBBB1;
+}
+
+.nav-item:nth-child(5) {
+  border-color: #BDB4BF;
+}
+
 body {
   padding-left: 10vw;
   padding-right: 10vw;
@@ -15,7 +56,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   line-height: 5px;
   color: #24292e;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgray; /* border or not? */
   padding-bottom: 8px;
   margin-bottom: 0;
 }
@@ -26,8 +67,7 @@ p {
 }
 
 hr {
-  border-top: #ccc;
-  border-radius: 0;
+  border-bottom: 1px solid lightgray !important;
 }
 
 nav {
@@ -98,3 +138,46 @@ a:hover {
     list-style: none;
     padding-left: 0;
 }​
+
+/* LYNN */
+
+.borderr {
+    stroke: #222;
+    stroke-width: 3mm;
+    stroke-linejoin:miter;
+    stroke-linecap:square;
+    fill-opacity: 0;
+  -webkit-animation: anim1 1.5s linear 1s forwards infinite;
+  animation: anim1 1.5s linear 1s forwards infinite;
+  height: 50vh;
+}
+
+    @-webkit-keyframes anim1 {
+    0% {
+    stroke: #222;
+}
+50% {
+  stroke: #fff;
+}    100% {
+    stroke: #222;
+}
+}
+
+    @keyframes anim1 {
+    0% {
+    stroke: #222;
+}
+50% {
+  stroke: #fff;
+}    100% {
+    stroke: #222;
+}}
+.coverr{
+  position: fixed;
+  display: block;
+  height: 100vh;
+  top: 40vh;
+}
+.ok{
+  padding-top: 90vh;
+}
