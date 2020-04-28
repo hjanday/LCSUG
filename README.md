@@ -1,2 +1,2 @@
 # LCSUHB
-The Lassonde Computer Science Holy Bible - https://chrisngyn.github.io/LCSHB/
+The Lassonde Computer Science Guide - https://chrisngyn.github.io/LCSG
