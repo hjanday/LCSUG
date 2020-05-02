@@ -85,6 +85,10 @@ nav {
   margin-bottom: 8px;
 }
 
+.special-link {
+  color: #007bff !important;
+}
+
 a {
   color:#24292e !important;
 }
