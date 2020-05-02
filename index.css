@@ -162,7 +162,9 @@ strong {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  width: 50% !important;
+  max-width: 80% !important;
+  /* width: 50% !important; */
+  /* max-width: 75% !important; */
 }
 
 /* LYNN */
