@@ -1,2 +1,2 @@
-# TLCSG
-The Lassonde Computer Science Guide - https://chrisngyn.github.io/TLCSG
+# LCSUG
+The Lassonde Computer Science Unofficial Guide - https://chrisngyn.github.io/LCSUG
