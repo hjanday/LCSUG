@@ -206,7 +206,7 @@ strong {
 	position: fixed;
 	display: block;
 	height: 100vh;
-	top: 40vh;
+	/* top: 40vh; */
 }
 
 .ok {
