@@ -1,46 +1,31 @@
-/* Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 600px) {...} */
-
-/* Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (min-width: 600px) {...} */
-
-/* Medium devices (landscape tablets, 768px and up)
-@media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up)
-@media only screen and (min-width: 992px) {...} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {...} */
-
-/* html, body {
-  height: 100%;
-  width: 100%;
-} */
-
 .nav-item {
   border-bottom: 1.5px solid #000;
   border-radius: 0 !important;
 }
 
 .nav-item:nth-child(1) {
-  border-color: #a34775; /* creative */
+  /* creative */
+  border-color: #a34775;
 }
 
 .nav-item:nth-child(2) {
-  border-color: #d14747; /* passionate */
+  /* passionate */
+  border-color: #d14747;
 }
 
 .nav-item:nth-child(3) {
-  border-color: #194775; /* rational */
+  /* rational */
+  border-color: #194775;
 }
 
 .nav-item:nth-child(4) {
-  border-color: #47a3a3; /* confident */
+  /* confident */
+  border-color: #47a3a3;
 }
 
 .nav-item:nth-child(5) {
-  border-color: #ffd119; /* ingenious */
+  /* ingenious */
+  border-color: #ffd119;
 }
 
 body {
@@ -49,6 +34,7 @@ body {
   padding-top: 2vw;
   font-family: 'Roboto', sans-serif;
   position: relative;
+  background-color: #F5F5F9;
 }
 
 h1 {
@@ -63,7 +49,8 @@ h1 {
 }
 
 h3 {
-  border-top: 1px solid lightgray !important; /* top borders and bottom borders lol*/
+  /* top borders and bottom borders lol*/
+  border-top: 1px solid lightgray !important;
 }
 
 p {
@@ -73,8 +60,8 @@ p {
 
 .coursetext {
   color: #24292e;
-  padding-bottom: 0px!important;
-  margin-bottom: 0px!important;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 hr {
@@ -90,10 +77,14 @@ nav {
 }
 
 a {
-  color:#24292e !important;
+  color: #24292e !important;
 }
 
 a:hover {
+  color: #007bff !important;
+}
+
+.a-special {
   color: #007bff !important;
 }
 
@@ -150,15 +141,15 @@ a:hover {
 }
 
 .specialUL {
-    list-style: none;
-    padding-left: 0;
-}​
-
-strong {
-  display:inline !important;
+  list-style: none;
+  padding-left: 0;
 }
 
-.please {
+strong {
+  display: inline !important;
+}
+
+.photo {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -167,50 +158,53 @@ strong {
   /* max-width: 75% !important; */
 }
 
-/* LYNN */
-
+/* classes by Lynn */
 .borderr {
-	stroke: #222;
-	stroke-width: 3mm;
-	stroke-linejoin: miter;
-	stroke-linecap: square;
-	fill-opacity: 0;
-	-webkit-animation: anim1 1.5s linear 1s forwards infinite;
-	animation: anim1 1.5s linear 1s forwards infinite;
-	height: 50vh;
+  stroke: #222;
+  stroke-width: 3mm;
+  stroke-linejoin: miter;
+  stroke-linecap: square;
+  fill-opacity: 0;
+  -webkit-animation: anim1 1.5s linear 1s forwards infinite;
+  animation: anim1 1.5s linear 1s forwards infinite;
+  height: 50vh;
 }
 
 @-webkit-keyframes anim1 {
-	0% {
-		stroke: #222;
-	}
-	50% {
-		stroke: #fff;
-	}
-	100% {
-		stroke: #222;
-	}
+  0% {
+    stroke: #222;
+  }
+
+  50% {
+    stroke: #fff;
+  }
+
+  100% {
+    stroke: #222;
+  }
 }
 
 @keyframes anim1 {
-	0% {
-		stroke: #222;
-	}
-	50% {
-		stroke: #fff;
-	}
-	100% {
-		stroke: #222;
-	}
+  0% {
+    stroke: #222;
+  }
+
+  50% {
+    stroke: #fff;
+  }
+
+  100% {
+    stroke: #222;
+  }
 }
 
 .coverr {
-	position: fixed;
-	display: block;
-	height: 100vh;
-	/* top: 40vh; */
+  position: fixed;
+  display: block;
+  height: 100vh;
+  /* top: 40vh; */
 }
 
 .ok {
-	padding-top: 90vh;
+  padding-top: 90vh;
 }
