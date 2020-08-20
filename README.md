@@ -7,3 +7,5 @@ I was heavily inspiring by seeing students from other universities make guides f
 
 ## Contributing
 I'll be posting issues overtime about things I need help with (i.e. missing course descriptions, requests for visual appearance updates, and more). If there's something not listed that you want to see added, make an issue or add me on Discord, **@chrispy#8933**. I'm open to accepting any PRs that will improve the LCSUG.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/chrisngyn/LCSUG)
